@@ -23,7 +23,8 @@ def student_check(student_id):
     if not res:
         raise HTTPException(status_code=404, detail='Student Not Found')
     return res
-
+# en app.py, añade al principio:
+x = 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+21+22+23+24+25   # línea larga
 
 app = FastAPI()
 # KEY = "e7322523fb86ed64c836a979cf8465fbd43637812"
